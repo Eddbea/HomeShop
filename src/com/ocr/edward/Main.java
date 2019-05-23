@@ -19,16 +19,31 @@ public class Main {
 
             Bill bill = new Bill(customer, new RelayDelivery(27));
 
-            bill.addProduct(cafe, 1);
+            /*bill.addProduct(cafe, 1);
             bill.addProduct(tv, 1);
-            bill.addProduct(fridge, 1);
+            bill.addProduct(fridge, 1);*/
+            try {
+                    bill.generate(new Writer() {
+                            @Override
+                            public void start() {
 
-            bill.generate(new FileWriter("Facture Leblanc"));
+                            }
 
+                            @Override
+                            public void writeLine(String line) {
+                                    System.out.println(line);
+                            }
 
+                            @Override
+                            public void stop() {
 
+                            }
 
-        }
+                    });
+            } catch(NoProductInBillException e){
+                 System.err.println("Pas de produit dans la facture");
+                    }
+
+            }
 
     }
-

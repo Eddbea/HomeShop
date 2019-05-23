@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d90d10c-2e12-4984-a3b2-056de6e358de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/FileWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Writer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/NoProductInBillException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Delivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/DirectDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/DirectDelivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/ExpressDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/ExpressDelivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/RelayDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/RelayDelivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/TakeAwayDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/TakeAwayDelivery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ocr/edward/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/edward/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ocr/edward/Miam/Four.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/edward/Miam/Four.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ocr/edward/Miam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/edward/Miam/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/ocr/edward/Miam/BillTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/ocr/edward/Miam/BillTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,10 +23,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Writer.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Miam/Four.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="209">
+              <caret line="14" column="107" selection-start-line="14" selection-start-column="107" selection-end-line="14" selection-end-column="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Miam/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/NoProductInBillException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -39,48 +52,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Bill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+            <state relative-caret-position="264">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#190#208#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Delivery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/DirectDelivery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-              <folding>
-                <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/ExpressDelivery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-              <folding>
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/ocr/edward/Miam/BillTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="474">
+              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#258#259#0" expanded="true" />
@@ -133,13 +109,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="444">
+              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1210#1211#0" expanded="true" />
+                <element signature="e#1286#1287#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facture Leblanc">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -181,7 +164,6 @@
         <option value="$PROJECT_DIR$/test/com/ocr/edward/Miam/ProductTest.java" />
         <option value="$PROJECT_DIR$/test/com/ocr/edward/Miam/CustomerTest.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/Miam/Product.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/edward/Miam/Main.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Fridge.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Television.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Product.java" />
@@ -193,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/com/ocr/edward/Paris/Taxi.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/Paris/bus.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/Paris/Bus.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/edward/Miam/Four.java" />
         <option value="$PROJECT_DIR$/test/com/ocr/edward/HomeShop/RelayDeliveryTest.java" />
         <option value="$PROJECT_DIR$/test/com/ocr/edward/HomeShop/ExpressDeliveryTest.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Writer.java" />
@@ -203,9 +184,12 @@
         <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/ExpressDelivery.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/RelayDelivery.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/TakeAwayDelivery.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Bill.java" />
-        <option value="$PROJECT_DIR$/test/com/ocr/edward/Miam/BillTest.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/FileWriter.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/edward/Miam/Four.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/edward/Miam/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/NoProductInBillException.java" />
+        <option value="$PROJECT_DIR$/test/com/ocr/edward/Miam/BillTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Bill.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/Main.java" />
       </list>
     </option>
@@ -253,11 +237,6 @@
             </path>
             <path>
               <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -297,6 +276,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ocr.edward.Miam.Main" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ocr.edward.Miam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -323,6 +315,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BillTest.Given_emptyProductList_generatingBill_Then_throwsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ocr.edward.Miam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ocr.edward.Miam" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.edward.Miam.BillTest" />
+      <option name="METHOD_NAME" value="Given_emptyProductList_generatingBill_Then_throwsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExpressDeliveryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled104" />
       <extension name="coverage">
@@ -338,51 +346,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelayDeliveryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled104" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ocr.edward.HomeShop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ocr.edward.HomeShop" />
-      <option name="MAIN_CLASS_NAME" value="com.ocr.edward.HomeShop.RelayDeliveryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RelayDeliveryTest.Given_FreeRelay_WhenGettingDeliveryPrice_ThenGet0e" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled104" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ocr.edward.HomeShop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ocr.edward.HomeShop" />
-      <option name="MAIN_CLASS_NAME" value="com.ocr.edward.HomeShop.RelayDeliveryTest" />
-      <option name="METHOD_NAME" value="Given_FreeRelay_WhenGettingDeliveryPrice_ThenGet0e" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.RelayDeliveryTest" />
-      <item itemvalue="JUnit.RelayDeliveryTest.Given_FreeRelay_WhenGettingDeliveryPrice_ThenGet0e" />
       <item itemvalue="JUnit.ExpressDeliveryTest" />
       <item itemvalue="JUnit.BillTest" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="JUnit.BillTest.Given_emptyProductList_generatingBill_Then_throwsException" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BillTest.Given_emptyProductList_generatingBill_Then_throwsException" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.BillTest" />
         <item itemvalue="JUnit.ExpressDeliveryTest" />
-        <item itemvalue="JUnit.RelayDeliveryTest.Given_FreeRelay_WhenGettingDeliveryPrice_ThenGet0e" />
-        <item itemvalue="JUnit.RelayDeliveryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -425,16 +402,17 @@
       <option name="project" value="LOCAL" />
       <updated>1558618602172</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Generez une facture&#10;Create Mock - test&#10;Edit a bill with FileWriter&#10;Create class FileWriter&#10;Create interface Writer">
+      <created>1558622005029</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558622005029</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RelayDeliveryTest_Given_FreeRelay_WhenGettingDeliveryPrice_ThenGet0e - 2019.05.23 at 15h 26m 18s.xml">
-      <configuration name="RelayDeliveryTest.Given_FreeRelay_WhenGettingDeliveryPrice_ThenGet0e" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpressDeliveryTest - 2019.05.23 at 15h 32m 36s.xml">
-      <configuration name="ExpressDeliveryTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BillTest - 2019.05.23 at 15h 56m 13s.xml">
       <configuration name="BillTest" configurationId="JUnit" />
     </history-entry>
@@ -459,12 +437,18 @@
     <history-entry file="BillTest - 2019.05.23 at 16h 17m 38s.xml">
       <configuration name="BillTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BillTest_Given_emptyProductList_generatingBill_Then_throwsException - 2019.05.23 at 16h 51m 43s.xml">
+      <configuration name="BillTest.Given_emptyProductList_generatingBill_Then_throwsException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BillTest_Given_emptyProductList_generatingBill_Then_throwsException - 2019.05.23 at 16h 52m 40s.xml">
+      <configuration name="BillTest.Given_emptyProductList_generatingBill_Then_throwsException" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1920" height="1025" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -474,15 +458,15 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733758" visible="true" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4968051" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946752" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946752" weight="0.20042872" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5026624" side_tool="true" visible="true" weight="0.3290461" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49520767" weight="0.3290461" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50319487" side_tool="true" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4946752" weight="0.3290461" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -498,7 +482,8 @@
     <MESSAGE value="Heritage&#10;Create package &quot;Garage&quot;&#10;Inside it : create class Car &amp; Vehicle&#10;Create class Fridge &amp; Television inside package HomeShop" />
     <MESSAGE value="Polymorphisme&#10;Create class Bike&#10;@Overwrite start and stop&#10;Make abstract class Vehicle" />
     <MESSAGE value="Concevoir une interface&#10;Create interface to learn&#10;Create Delivery class x4 &amp; its interface &amp; its test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Concevoir une interface&#10;Create interface to learn&#10;Create Delivery class x4 &amp; its interface &amp; its test" />
+    <MESSAGE value="Generez une facture&#10;Create Mock - test&#10;Edit a bill with FileWriter&#10;Create class FileWriter&#10;Create interface Writer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generez une facture&#10;Create Mock - test&#10;Edit a bill with FileWriter&#10;Create class FileWriter&#10;Create interface Writer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -652,30 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Miam/Four.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Miam/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Paris/Parisien.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -788,40 +749,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/TakeAwayDelivery.java">
+    <entry file="file://$PROJECT_DIR$/Facture Leblanc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Miam/Four.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="14" column="107" selection-start-line="14" selection-start-column="107" selection-end-line="14" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Miam/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/NoProductInBillException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Bill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        <state relative-caret-position="264">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#190#208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/ocr/edward/Miam/BillTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -840,12 +798,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/TakeAwayDelivery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="150">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/ocr/edward/Miam/BillTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
           </folding>
         </state>
       </provider>
