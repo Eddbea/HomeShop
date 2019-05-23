@@ -1,8 +1,8 @@
 package com.ocr.edward.Miam;
 
 public class Four {
-    private int puissance;
-    private int capacite;
+    protected int puissance;
+    protected int capacite;
 
     protected Resistance resistance;
     private Soufflerie soufflerie;

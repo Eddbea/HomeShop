@@ -3,11 +3,15 @@ package com.ocr.edward;
 import com.ocr.edward.Garage.Bike;
 import com.ocr.edward.Garage.Vehicle;
 import com.ocr.edward.HomeShop.*;
+import com.ocr.edward.Paris.Bus;
+import com.ocr.edward.Paris.MoyenDeLocomotion;
+import com.ocr.edward.Paris.Parisien;
+import com.ocr.edward.Paris.Taxi;
 
 public class Main {
 
 	public static void main(String[] args) {
-            Product cafe = new Product("Philips HD7866/61", "Philips SENSEO Quadrante, Noir - 1 ou 2 tasses", 79.99);
+            /*Product cafe = new Product("Philips HD7866/61", "Philips SENSEO Quadrante, Noir - 1 ou 2 tasses", 79.99);
             Television tv = new Television("TV Samsung UE49MU6292", "Smart TV LED incurvée 49\"", 599, 49, "LED");
             Fridge fridge = new Fridge("BEKO TSE 1042 F", "Réfrigérateur BEKO 130L - Classe A+ - blanc", 189, 130, false);
 
@@ -18,7 +22,18 @@ public class Main {
             bill.addProduct(tv, 1);
             bill.addProduct(fridge, 1);
 
-        Vehicle v = new Bike();
+        Vehicle v = new Bike();*/
+
+        Parisien segolene = new Parisien();
+
+        Bus bus = new Bus();
+        segolene.seDeplacer(bus);
+        Taxi taxi = new Taxi();
+        segolene.seDeplacer(taxi);
+        MoyenDeLocomotion taxi2 = new Taxi();
+        segolene.seDeplacer(taxi2);
+
+
         }
 
     }

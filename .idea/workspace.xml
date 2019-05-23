@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d90d10c-2e12-4984-a3b2-056de6e358de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ocr/edward/Garage/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/DirectDelivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/ExpressDelivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/RelayDelivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/TakeAwayDelivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/edward/Paris/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/edward/Paris/MoyenDeLocomotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/edward/Paris/Parisien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/edward/Paris/Taxi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/ocr/edward/HomeShop/ExpressDeliveryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/ocr/edward/HomeShop/RelayDeliveryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/ocr/edward/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/ocr/edward/Miam/Four.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/ocr/edward/Miam/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/edward/Garage/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/edward/Garage/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/edward/Garage/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/edward/Garage/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ocr/edward/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/edward/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ocr/edward/Miam/Four.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/edward/Miam/Four.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +30,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Delivery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/DirectDelivery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/RelayDelivery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding>
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/ocr/edward/HomeShop/RelayDeliveryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,139 +77,52 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Bill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+            <state relative-caret-position="240">
+              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#190#208#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Customer.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/ExpressDelivery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="180">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding>
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Product.java">
+        <entry file="file://$PROJECT_DIR$/test/com/ocr/edward/HomeShop/ExpressDeliveryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-              <folding>
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Garage/Vehicle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding>
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#1019#1020#0" expanded="true" />
-                <element signature="e#1074#1075#0" expanded="true" />
-                <element signature="e#1142#1143#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#1271#1272#0" expanded="true" />
-                <element signature="e#1330#1331#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Garage/Bike.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Garage/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#194#202#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#667#668#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Fridge.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/TakeAwayDelivery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="75">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="17" />
               <folding>
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Television.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-              <folding>
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -180,8 +133,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -199,16 +153,28 @@
         <option value="$PROJECT_DIR$/test/com/ocr/edward/Miam/BillTest.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/Miam/Product.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/Miam/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/edward/Miam/Four.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Customer.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Fridge.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Television.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Product.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Bill.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/Garage/Car.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/Garage/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/Garage/Bike.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/edward/Paris/Parisien.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/edward/Paris/MoyenDeLocomotion.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/edward/Paris/Taxi.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/edward/Paris/bus.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/edward/Paris/Bus.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/edward/Miam/Four.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/edward/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Delivery.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/TakeAwayDelivery.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/DirectDelivery.java" />
+        <option value="$PROJECT_DIR$/test/com/ocr/edward/HomeShop/RelayDeliveryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/RelayDelivery.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/ExpressDelivery.java" />
+        <option value="$PROJECT_DIR$/test/com/ocr/edward/HomeShop/ExpressDeliveryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Bill.java" />
       </list>
     </option>
   </component>
@@ -270,13 +236,14 @@
             <path>
               <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="edward" type="462c0819:PsiDirectoryNode" />
+              <item name="Paris" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="Miam" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
@@ -299,6 +266,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ocr.edward.HomeShop" />
       <recent name="com.ocr.edward.Miam" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -317,11 +285,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.ExpressDeliveryTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.ocr.edward.Main" />
+      <module name="untitled104" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -341,12 +310,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExpressDeliveryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ocr.edward.HomeShop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ocr.edward.HomeShop" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.edward.HomeShop.ExpressDeliveryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RelayDeliveryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ocr.edward.HomeShop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ocr.edward.HomeShop" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.edward.HomeShop.RelayDeliveryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RelayDeliveryTest.Given_FreeRelay_WhenGettingDeliveryPrice_ThenGet0e" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ocr.edward.HomeShop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ocr.edward.HomeShop" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.edward.HomeShop.RelayDeliveryTest" />
+      <option name="METHOD_NAME" value="Given_FreeRelay_WhenGettingDeliveryPrice_ThenGet0e" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="JUnit.RelayDeliveryTest" />
+      <item itemvalue="JUnit.RelayDeliveryTest.Given_FreeRelay_WhenGettingDeliveryPrice_ThenGet0e" />
+      <item itemvalue="JUnit.ExpressDeliveryTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExpressDeliveryTest" />
+        <item itemvalue="JUnit.RelayDeliveryTest.Given_FreeRelay_WhenGettingDeliveryPrice_ThenGet0e" />
+        <item itemvalue="JUnit.RelayDeliveryTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
       </list>
@@ -377,14 +398,32 @@
       <option name="project" value="LOCAL" />
       <updated>1558543495741</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Polymorphisme&#10;Create class Bike&#10;@Overwrite start and stop&#10;Make abstract class Vehicle">
+      <created>1558615279493</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558615279493</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RelayDeliveryTest - 2019.05.23 at 15h 24m 01s.xml">
+      <configuration name="RelayDeliveryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RelayDeliveryTest_Given_FreeRelay_WhenGettingDeliveryPrice_ThenGet0e - 2019.05.23 at 15h 26m 18s.xml">
+      <configuration name="RelayDeliveryTest.Given_FreeRelay_WhenGettingDeliveryPrice_ThenGet0e" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpressDeliveryTest - 2019.05.23 at 15h 32m 36s.xml">
+      <configuration name="ExpressDeliveryTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1920" height="1025" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -394,15 +433,15 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946752" weight="0.20042872" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50106496" side_tool="true" visible="true" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49893504" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159746" side_tool="true" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49574015" weight="0.3290461" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -416,7 +455,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Class Bill&#10;Add constructors and G&amp;S to Product and customer" />
     <MESSAGE value="Heritage&#10;Create package &quot;Garage&quot;&#10;Inside it : create class Car &amp; Vehicle&#10;Create class Fridge &amp; Television inside package HomeShop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Heritage&#10;Create package &quot;Garage&quot;&#10;Inside it : create class Car &amp; Vehicle&#10;Create class Fridge &amp; Television inside package HomeShop" />
+    <MESSAGE value="Polymorphisme&#10;Create class Bike&#10;@Overwrite start and stop&#10;Make abstract class Vehicle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polymorphisme&#10;Create class Bike&#10;@Overwrite start and stop&#10;Make abstract class Vehicle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -479,32 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Miam/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Miam/Four.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-          <folding>
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/untitled104.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -550,23 +564,6 @@
             <element signature="e#567#568#0" expanded="true" />
             <element signature="e#599#600#0" expanded="true" />
             <element signature="e#627#628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Bill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#190#208#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -633,12 +630,154 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Miam/Four.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Miam/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Paris/Parisien.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Paris/Bus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Paris/Taxi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Paris/MoyenDeLocomotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="480">
+          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Delivery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/RelayDelivery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/TakeAwayDelivery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/ocr/edward/HomeShop/RelayDeliveryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/ExpressDelivery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/ocr/edward/HomeShop/ExpressDeliveryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/DirectDelivery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/edward/HomeShop/Bill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#190#208#0" expanded="true" />
           </folding>
         </state>
       </provider>
