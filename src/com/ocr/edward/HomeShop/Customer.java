@@ -8,11 +8,11 @@ public class Customer {
         this.fullName = fullName;
         this.adress = adress;
     }
-    public String getFullName() {
+    public String getFullname() {
         return fullName;
     }
 
-    public String getAdress() {
+    public String getAddress() {
         return adress;
     }
 }
