@@ -1,6 +1,6 @@
 package com.ocr.edward.Miam;
 
-import com.ocr.edward.HomeShop.*;
+import com.ocr.edward.homeshop.*;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

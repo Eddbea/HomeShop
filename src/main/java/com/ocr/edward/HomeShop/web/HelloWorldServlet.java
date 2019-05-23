@@ -1,4 +1,4 @@
-package com.ocr.edward.HomeShop.web;
+package com.ocr.edward.homeshop.web;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
