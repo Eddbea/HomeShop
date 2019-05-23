@@ -4,12 +4,12 @@
          version="3.1">
 
     <servlet>
-        <servlet-name>HelloWorld</servlet-name>
-        <servlet-class>com.ocr.edward.homeshop.web.HelloWorldServlet</servlet-class>
+        <servlet-name>Bill</servlet-name>
+        <servlet-class>com.ocr.edward.homeshop.web.BillServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>HelloWorld</servlet-name>
-        <url-pattern>/helloworld</url-pattern>
+        <servlet-name>bill</servlet-name>
+        <url-pattern>/Bill</url-pattern>
     </servlet-mapping>
 </web-app>
