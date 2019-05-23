@@ -16,7 +16,7 @@ public class Product {
      * Display a full description of the product
      */
     public void look(){
-
+        System.out.println();
     }
 
     /**

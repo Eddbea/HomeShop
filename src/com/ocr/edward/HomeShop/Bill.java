@@ -1,13 +1,15 @@
 package com.ocr.edward.HomeShop;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class Bill {
     private Customer customer;
-    private Map<Product, Integer> products;
+    private Map<Product, Integer> products = new HashMap<Product, Integer>();
 
     public Bill(Customer customer) {
         this.customer = customer;
+
     }
     /**
      * Add a product with a quantity in the bill

@@ -1,11 +1,11 @@
 package com.ocr.edward.Garage;
 
-public class Vehicle {
+public abstract class Vehicle {
     private String description;
     private String manufacturer;
     private int speed;
     private int year;
-    private String modelname;
+    protected String modelName;
     private String color;
     private int[] dimensions = new int[3];
     private int weight;
@@ -15,19 +15,18 @@ public class Vehicle {
         this.manufacturer = manufacturer;
         this.speed = speed;
         this.year = year;
-        this.modelname = modelname;
+        this.modelName = modelName;
         this.color = color;
         this.dimensions = dimensions;
         this.weight = weight;
     }
 
-    public void start(){
-        System.out.println();
+    public Vehicle() {
     }
 
-    public void stop() {
-        System.out.println();
-    }
+    public abstract void start();
+
+    public abstract void stop();
 
     public String getDescription() {
         return description;
@@ -46,7 +45,7 @@ public class Vehicle {
     }
 
     public String getModelname() {
-        return modelname;
+        return modelName;
     }
 
     public String getColor() {
