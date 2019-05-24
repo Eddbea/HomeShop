@@ -9,7 +9,7 @@
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>bill</servlet-name>
+        <servlet-name>Bill</servlet-name>
         <url-pattern>/Bill</url-pattern>
     </servlet-mapping>
 </web-app>

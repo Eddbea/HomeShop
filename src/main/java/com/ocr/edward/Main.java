@@ -19,9 +19,9 @@ public class Main {
 
             Bill bill = new Bill(customer, new RelayDelivery(27));
 
-            /*bill.addProduct(cafe, 1);
+            bill.addProduct(cafe, 1);
             bill.addProduct(tv, 1);
-            bill.addProduct(fridge, 1);*/
+            bill.addProduct(fridge, 1);
             try {
                     bill.generate(new Writer() {
                             @Override
