@@ -51,6 +51,8 @@ public class BillServlet extends HttpServlet {
             case "takeAway" :
                 delivery = new TakeAwayDelivery();
                 break;
+            default :
+                System.out.println("Erreur das le mode de livraison");
         }
         Bill bill = new Bill(customer, delivery);
         String[] productsParams = params.get("products").split("%0D%0A");
@@ -86,7 +88,7 @@ public class BillServlet extends HttpServlet {
                     "<b>" + i + " - " + product.getName() + "</b> : " + product.getPrice() + "<br/>" +
                             product.getDescription() + "<br/><br/>");
         }
-        String form = "<form action=\"bill\">" +
+        String form = "<form action=\"Bill\">" +
                 "<b>nom complet :</b> <input name=\"fullname\"/><br/>" +
                 "<b>adresse :</b> <input name=\"address\"/><br/><br/>" +
                 "<b>livraison :</b> <br/>" +

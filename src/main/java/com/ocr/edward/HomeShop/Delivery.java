@@ -1,7 +1,7 @@
 package com.ocr.edward.homeshop;
 
 public interface Delivery {
-    public double getPrice();
+    double getPrice();
 
     String getInfo();
 }
